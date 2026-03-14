@@ -23,6 +23,8 @@ Alternatively, the environment can be set up using the file `gsn_env.yml`
 ```
 mkdir -p data/S3DIS/s3disfull/raw
 ```
+The processing of the data is in line with the S3DIS dataset.
+
 Place point clouds in the directory `data/S3DIS/s3disfull/raw` in the `XXXX.npy` format. The traning-file names should start with `Area_1_XXXX.npy`. For example: `Area_1_dales_1.npy`, `Area_1_dales_2.npy`. The testing-file names should start with `Area_5_XXXX.npy`. For example: `Area_5_dales_1.npy`, `Area_5_dales_2.npy`. As per the script, files starting with `Area_1_` and `Area_5_` will be considered as training and testing files, respectively.
 
 For converting the data into `.npy` format, please refer to the repo "[PointNet](https://github.com/charlesq34/pointnet)".
