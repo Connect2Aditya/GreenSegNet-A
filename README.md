@@ -29,7 +29,7 @@ Place point clouds in the directory `data/S3DIS/s3disfull/raw` in the `XXXX.npy`
 
 For converting the data into `.npy` format, please refer to the repo "[PointNet](https://github.com/charlesq34/pointnet)".
 
-Sample data is available at: "[Google Drive Link]()". There are just two classes in the data, `vegetation (label: 0)` and `non-vegetation (label: 1)`.
+Sample data is available at: "[Google Drive Link](https://drive.google.com/drive/folders/1Xzd_GhUHHGtsWS9cuQmyu9gs5_0lWTOV?usp=sharing)". Sample data is a portion of "[DALES](https://arxiv.org/abs/2004.11985)" dataset. There are just two classes in the data, `vegetation (label: 0)` and `non-vegetation (label: 1)`.
 
 ## Run Experiments
 
