@@ -21,12 +21,11 @@ Alternatively, the environment can be set up using the file `gsn_env.yml`
 - Dataset
 
 ```
-mkdir -p data/S3DIS/
-cd data/S3DIS
-gdown https://drive.google.com/uc?id=1MX3ZCnwqyRztG1vFRiHkKTz68ZJeHS4Y
-tar -xvf s3disfull.tar
-cd ../../
+mkdir -p data/S3DIS/s3disfull/raw
 ```
+Place point clouds in the directory `data/S3DIS/s3disfull/raw` in the `XXXX.npy` format. The traning-file names should start with `Area_1_XXXX.npy`. For example: `Area_1_dales_1.npy`, `Area_1_dales_2.npy`. The testing-file names should start with `Area_5_XXXX.npy`. For example: `Area_5_dales_1.npy`, `Area_5_dales_2.npy`. As per the script, files starting with `Area_1_` and `Area_5_` will be considered as training and testing files, respectively.
+
+Sample data is available at: "[Google Drive Link]()"
 
 ## Run Experiments
 
