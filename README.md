@@ -68,7 +68,7 @@ Please cite our work as:
 
 @article{ADITYA2026100382,
 title = {Advancing vegetation segmentation from ALS point clouds: From benchmarking to GreenSegNet-A},
-author = {Aditya Aditya and Bharat Lohani and Jagannath Aryal and Stephan Winter},
+author={Aditya, Aditya and Lohani, Bharat and Aryal, Jagannath and Winter, Stephan},
 journal = {Science of Remote Sensing},
 volume = {13},
 pages = {100382},
