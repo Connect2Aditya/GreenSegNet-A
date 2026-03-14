@@ -1,4 +1,4 @@
-name: spotr1
+name: greensegnet
 channels:
   - pytorch
   - nvidia
