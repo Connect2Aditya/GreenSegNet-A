@@ -16,6 +16,8 @@ cd GreenSegNet-A
 ```
 bash install.sh
 ```
+Alternatively, the environment can be set up using the file `gsn_env.yml`
+
 - Dataset
 
 ```
