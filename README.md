@@ -25,7 +25,9 @@ mkdir -p data/S3DIS/s3disfull/raw
 ```
 Place point clouds in the directory `data/S3DIS/s3disfull/raw` in the `XXXX.npy` format. The traning-file names should start with `Area_1_XXXX.npy`. For example: `Area_1_dales_1.npy`, `Area_1_dales_2.npy`. The testing-file names should start with `Area_5_XXXX.npy`. For example: `Area_5_dales_1.npy`, `Area_5_dales_2.npy`. As per the script, files starting with `Area_1_` and `Area_5_` will be considered as training and testing files, respectively.
 
-Sample data is available at: "[Google Drive Link]()"
+For converting the data into `.npy` format, please refer to the repo "[PointNet](https://github.com/charlesq34/pointnet)".
+
+Sample data is available at: "[Google Drive Link]()". There are just two classes in the data, `vegetation (label: 0)` and `non-vegetation (label: 1)`.
 
 ## Run Experiments
 
